@@ -2,7 +2,12 @@
 # Creating Class named TV
 
 # Creating the class named TV
-# Define constructor of the TV
+class TV:
+    # Define constructor of the TV
+    def __init__(self, power, channel, volume):
+        self.power = power
+        self.channel = channel
+        self.volume = volume
 # Define function to turn on the TV
 # Define function to turn off the TV
 # Define function to return the channel
