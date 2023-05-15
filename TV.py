@@ -8,7 +8,11 @@ class TV:
         self.power = power
         self.channel = channel
         self.volume = volume
-# Define function to turn on the TV
+    # Define function to turn on the TV
+    def turnOn(self):
+        if self.power == True:
+            self.power += False
+
 # Define function to turn off the TV
 # Define function to return the channel
 # Define function to check if the channel is existing
