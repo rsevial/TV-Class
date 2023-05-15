@@ -4,16 +4,16 @@
 # Creating the class named TV
 class TV:
     # Define constructor of the TV
-    def __init__(self, power, channel, volume):
-        self.power = power
-        self.channel = channel
-        self.volume = volume
+    def __init__(self):
+        self.power = True
+        self.channel = 1
+        self.volume = 1
     # Define function to turn on the TV
     def turnOn(self):
-        if self.power == True:
-            self.power += False
-
-# Define function to turn off the TV
+        self.power = True
+    # Define function to turn off the TV
+    def turnOff(self):
+        self.power = False
 # Define function to return the channel
 # Define function to check if the channel is existing
 # Define function to return the volume
