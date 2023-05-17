@@ -21,7 +21,9 @@ class TV:
     def setChannel(self, channel):
         if 1 <= channel <= 120:
             self.channel = channel
-# Define function to return the volume
+    # Define function to return the volume
+    def getVolume(self):
+        return self.volume
 # Define function to check if the volume is within the range
 # Define function that will you change the channel up
 # Define function that will you chnage the channel down
