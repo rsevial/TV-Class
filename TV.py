@@ -32,7 +32,7 @@ class TV:
     def channelUp(self):
         if self.power_on and self.channel <= 120:
             self.channel += 1
-    # Define function that will allow you to chnage the channel down
+    # Define function that will allow you to change the channel down
     def channelDown(self):
         if self.power_on and self.channel >= 1:
             self.channel -= 1
