@@ -15,6 +15,8 @@ class TV:
     def turnOff(self):
         self.power = False
     # Define function to return the channel
+    def getChannel(self):
+        return self.channel
 # Define function to check if the channel is existing
 # Define function to return the volume
 # Define function to check if the volume is within the range
