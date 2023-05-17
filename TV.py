@@ -24,7 +24,10 @@ class TV:
     # Define function to return the volume
     def getVolume(self):
         return self.volume
-# Define function to check if the volume is within the range
+    # Define function to check if the volume is within the range
+    def setVolume(self, volume):
+        if 1 <= volume <= 7:
+            self.volume = volume
 # Define function that will you change the channel up
 # Define function that will you chnage the channel down
 # Define function that will you increase the volume
