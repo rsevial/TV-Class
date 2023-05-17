@@ -36,6 +36,12 @@ class TV:
     def channelDown(self):
         if self.power_on and self.channel >= 1:
             self.channel -= 1
-# Define function that will you increase the volume
-# Define function that will you decrease the volume
+    # Define function that will allow you to increase the volume
+    def volumeUp(self):
+        if self.power_on and self.volume <= 7:
+            self.volume += 1
+    # Define function that will allow you to decrease the volume
+    def volumeDown(self):
+        if self.power_on and self.volume >= 1:
+            self.volume -= 1
 
